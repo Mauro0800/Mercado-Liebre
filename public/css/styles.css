@@ -43,27 +43,31 @@
 .header{
     background-color: var(--amarillo);
     padding-bottom: 1%;
+    padding: 10px;
 }
 
 .header__a__img--logo{
     width: 40%;
     margin: 25px 0 15px 30px;
+    display: block;
 }
 
 .header__p--input{
     background-color: var(--grisClaro);
     color: var(--grisOscuro);
     border: 1px solid var(--grisOscuro);
-    width: 65%;
+    width: 200px;
     margin-left: 20px;
     text-align: center;
+    display:inline-block ;
 }
 
 .header__div--lupa{
     background-color: var(--grisClaro);
     border: 1px solid var(--grisOscuro);
     width: 17px;
-    margin:1px 0 20px 20px;
+    margin:1px 0 20px 3px;
+    display:inline-block ;
 }
 
 
